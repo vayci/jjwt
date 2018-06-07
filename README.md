@@ -3,20 +3,20 @@
 
 ## Java JWT: JSON Web Token for Java and Android
 
-JJWT aims to be the easiest to use and understand library for creating and verifying JSON Web Tokens (JWTs) on the JVM.
+JJWT 旨在成为使用最简单，最容易理解的一个在JVM上面创建和验证JSON Web Tokens (JWTs)的类库。
 
-JJWT is a Java implementation based on the [JWT](https://tools.ietf.org/html/rfc7519), [JWS](https://tools.ietf.org/html/rfc7515), [JWE](https://tools.ietf.org/html/rfc7516), [JWK](https://tools.ietf.org/html/rfc7517) and [JWA](https://tools.ietf.org/html/rfc7518) RFC specifications.
+JJWT 是基于 [JWT](https://tools.ietf.org/html/rfc7519), [JWS](https://tools.ietf.org/html/rfc7515), [JWE](https://tools.ietf.org/html/rfc7516), [JWK](https://tools.ietf.org/html/rfc7517) 和 [JWA](https://tools.ietf.org/html/rfc7518) RFC 规格的Java实现。
 
-The library was created by [Okta's](http://www.okta.com) Senior Architect, [Les Hazlewood](https://github.com/lhazlewood)
-and is now maintained by a [community](https://github.com/jwtk/jjwt/graphs/contributors) of contributors.
+类库由高级架构师[Okta's](http://www.okta.com)创建 , 现在由[社区](https://github.com/jwtk/jjwt/graphs/contributors)贡献者[Les Hazlewood](https://github.com/lhazlewood)
+维护。
 
-[Okta](https://developer.okta.com/) is a complete authentication and user management API for developers.
+[Okta](https://developer.okta.com/) 是一位完整授权和用户管理API开发者。
 
 We've also added some convenience extensions that are not part of the specification, such as JWT compression and claim enforcement.
 
-## What's a JSON Web Token?
+## 什么是 JSON Web Token?
 
-Don't know what a JSON Web Token is? Read on. Otherwise, jump on down to the [Installation](#installation) section.
+如果你不知道什么是JSON Web Token? 请继续阅读。否则, 跳到页面最下端 [安装](#installation) 章节。
 
 JWT is a means of transmitting information between two parties in a compact, verifiable form.
 
